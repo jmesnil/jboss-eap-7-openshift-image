@@ -52,7 +52,7 @@ modules:
           - name: os-java-jolokia
           - name: jboss.eap.cd.jolokia
           - name: os-eap7-openshift
-          - name: jboss.eap.cd15.openshift
+          - name: jboss.eap.cd16.openshift
           - name: jboss.eap.cd.openshift.modules
           - name: os-eap7-ping
           - name: os-eap-activemq-rar
@@ -78,7 +78,6 @@ modules:
           - name: openshift-layer
           - name: openshift-passwd
           - name: os-logging
-          - name: jboss.container.eap.prometheus.config
 packages:
       content_sets_file: content_sets.yml
       install:
